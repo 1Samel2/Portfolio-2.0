@@ -39,30 +39,41 @@ header .logo {
 }
 
 
-header ul {
+
+.nav-toggle, .nav-close{
+    color: white;
+
+}
+
+
+
+ 
+
+/* header ul {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-header ul li {
+ header ul li {
     list-style: none;
     margin-left: 20px;
 
-}
+} 
 
-header ul li a {
+
+ /* header ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
-}
+}  */
 
-header ul li a:hover,
+/* header ul li a:hover,
 header ul li a.active {
     background: #fff;
     color: #2b1055;
-}
+} */
 
 section {
     position: relative;
@@ -98,6 +109,20 @@ section img {
 section img#moon {
     mix-blend-mode: screen;
 }
+
+.lua {
+    animation: lua  infinite 10s linear;
+}
+
+@keyframes lua {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
 
 section img#mountains_front {
     z-index: 10;
