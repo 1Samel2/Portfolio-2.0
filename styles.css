@@ -13,7 +13,7 @@
     box-sizing: border-box;
     font-family: "roboto", serif;
     scroll-behavior: smooth;
-    /* cursor:  url(cursor1.png) 4 12, auto; */
+    
 
 }
 
@@ -270,9 +270,9 @@ header ul li a.active {
 .container{
     position:relative;
     display: flex;
+    background: #1c0522;
     justify-content:center;
     align-items:center;
-    max-width: 1200px;
     flex-wrap: wrap;
    
 }
