@@ -232,7 +232,9 @@ header ul li a.active {
 .knowledge-header{
     display: flex;
     align-items: center;
+    margin-bottom:10px;
     color: var(--color-text);;
+
 }
 
 /* .knowledge-header i{
