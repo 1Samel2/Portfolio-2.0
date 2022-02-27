@@ -18,7 +18,6 @@ window.addEventListener('scroll', function () {
 })
 
 
-
 /*===== MENU SHOW Y HIDDEN =====*/
 /* const navMenu = document.getElementById('nav-menu'),
     toggleMenu = document.getElementById('nav-toggle'),
@@ -33,6 +32,11 @@ toggleMenu.addEventListener('click', ()=>{
 closeMenu.addEventListener('click', ()=>{
     navMenu.classList.remove('show')
 }) */
+
+
+
+
+
 
 
 
